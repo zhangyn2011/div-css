@@ -13,6 +13,10 @@ a:hover{}
 .menuDiv {width:1px;height:28px;background:#999}
 #pagebody{width: 1024px; margin: 0 auto; height: 500px; background:#FFCC00; background-image:url(images/pagebody.jpg)}
 #sidebar{ width:200px; float:left;}
+#register{ margin: auto;}
+#register ul{list-style: none; margin: 0px auto;}
+#signin{ margin: auto;}
+#signin ul{list-style: none; margin: 0px auto;}
 #calculator ul li{ list-style:none; margin: 0px auto; text-align:left;}
 #mainbody{color:#F0F;}
 #footer{width:1024px;margin:0 auto;height:50px;background:#00FFFF; background-image:url(images/footer.jpg)}
