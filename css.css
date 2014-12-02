@@ -1,21 +1,31 @@
 @charset "utf-8";
 /* CSS Document */
-body{font-size:12px; font-family:Tahoma; margin: 0px; text-align:center; background:#FFF;}
-a:link,a:visited {font-size:12px;text-decoration:none;}
+body{font-size:16px; font-family:Tahoma; margin: 0px; text-align:center; background:#FFF;}
+a:link,a:visited {font-size:14px;text-decoration:none;}
 a:hover{}
-#container{color:#F00; width: 100%; margin: 10px auto}
+#container{
+	color: #66F;
+	width: 100%;
+	margin: 10px auto
+}
 #header{width: 1024px; margin: 0 auto; background:url(images/logo.jpg) no-repeat;}
 #menu{ padding: 20px 20px 0 0;}
 #menu ul { float:right;list-style:none; margin:0px auto;}
 #menu ul li {float:left; margin:0px 10px; display:block; line-height: 28px}
-#menu ul li a:link,#menu ul li a:visited {font-weight:bold;color:#F00}
+#menu ul li a:link,#menu ul li a:visited {
+	font-weight: bold;
+	color: #906
+}
 #menu ul li a:hover{}
 .menuDiv {width:1px;height:28px;background:#999}
 #pagebody{width: 1024px; margin: 0 auto; height: 500px; background:#FFCC00; background-image:url(images/pagebody.jpg)}
-#sidebar{ width:200px; float:left;}
-#register{ margin: auto;}
+#sidebar{ width:300px; float:left;}
+#register{ margin:0; padding: 0; display: inline; font:20px serif; }
 #register ul{list-style: none; margin: 0px auto;}
-#signin{ margin: auto;}
+
+.model{ width: 260px; height: 40px; margin: 10px; display:inline; font: 20px Tahoma;}
+.model1{ font: 18px Tahoma; }
+#signin{margin:0; padding: 0; display: inline; font:25px serif; width: 300px; height: 40px;}
 #signin ul{list-style: none; margin: 0px auto;}
 #calculator ul li{ list-style:none; margin: 0px auto; text-align:left;}
 #mainbody{color:#F0F;}
@@ -23,20 +33,7 @@ a:hover{}
 
 /*
 
-#menu {padding:20px 20px 0 0}
 
-#menu ul {float:right;list-style:none;margin:0px;}
-
-#menu ul li {float:left;margin:0 10px}
-
-
-#PageBody {width:800px;margin:0 auto;height:400px;background:#CCFF00}
-
-
-#Footer {width:800px;margin:0 auto;height:50px;background:#00FFFF}
 
 
 */
-
-
-
